@@ -3,14 +3,14 @@ from setuptools import setup
 
 setup(
     name='okex_okcoin',
-    version='0.0.0.1',
+    version='0.0.0.2',
     packages=['okex','okcoin'],
     description='Unified okex and okcoin',
     url='https://github.com/gbozee/V3-Open-API-SDK',
     author='Gbozee',
     license='MIT',
     author_email='',
-    install_requires=['requests', 'websockets==6.0'],
+    install_requires=[],
     keywords='binance exchange rest api bitcoin ethereum btc eth neo',
     classifiers=[
         'Intended Audience :: Developers',
